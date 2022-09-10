@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #E5E5E5;
+}
+
+.container {
+    width: 620px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid magenta;
+    margin: 0 auto;
+    background-color: rgb(58, 58, 136);
+    
+}
+
+
+.reset-btn{
+    display: block;
+    width: 80px;
+    margin-top: 12em;
+    margin-left: -21em;
+    background: blueviolet;
+    color: wheat;
+    font: bold;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 8px;
+    color: #fff;
+}
+
+
+p{
+    border:4px solid black;
+    text-align: center;
+    height: 80px;
+    margin: 0px 4px 8px 4px;
+    background: black;
+    color: red;
+    font-size: 60px;
+    
+}
+
+button {
+    background: darkcyan;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    padding: 4px 4px;
+}
+
+button:hover,
+button:focus{
+    cursor: pointer;
+    background-color: blue;
+    
+}
+
